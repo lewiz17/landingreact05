@@ -1,0 +1,165 @@
+@import './base/colors';
+
+body{
+    background: $blackColor;
+    color: $grayColor2;
+}
+h1,h2,h3{
+    color: $grayColor2;
+}
+.top-nav{
+    padding-top: 65px;
+}
+.sd-box{
+    background-color: $grayColor1;
+   // box-shadow: 0px 1px 3px $grayColor1;
+}
+
+.main{
+    padding-top: 2.55rem;
+    padding-bottom: 2.55rem;
+    padding-left: 14rem;
+}
+
+.content-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.55rem;
+    align-items: flex-start;
+}
+.card{
+    max-width: 320px;
+    height: 180px;
+    background: $grayColor1;
+
+    .btn{
+        opacity: .8;
+        background-color: $iamColor;
+        border-color: $iamColor;
+
+        &:hover{
+            opacity: 1;
+        }
+    }
+}
+.navbar-brand{
+    max-width: 5rem;
+
+    .logo{
+        
+    }
+}
+
+.search{
+    display: flex;
+
+    .search-box{
+        display: flex;
+
+        input[type=text]{
+            background-color: $blackColor;
+            border: .5px solid $grayColor1;
+            color: $grayColor2;
+        }
+
+        .btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: .3rem;
+        }
+    }
+}
+
+.sidebar{
+    height: calc(100vh - 4em);
+    position: fixed;
+
+    .content-sidebar{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        height: 100%;
+        overflow-y: scroll;
+
+        .main-sidebar{
+            display: flex;
+            height: 85vh;
+            overflow-y: scroll;
+            flex-wrap: wrap;
+            box-shadow: 0px -5px 10px 5px $grayColor2;
+            padding-bottom: 1em;
+
+            .section-sidebar{
+                width: 100%;
+                font-size: 20px;
+                color: $grayColor3;
+                padding: 7px 0 10px 0;
+                margin: 0;
+            }
+
+            .accordion{
+                width: 100%;
+                border-radius: 0.25rem;
+                overflow: hidden;
+
+                .accordion-item{
+
+                    background-color: $grayColor1;
+
+                    .accordion-header{
+
+                        .accordion-button{
+
+                            background-color: $grayColor1;
+                            color: $grayColor2;
+
+                            &::after{
+                                background-size: .8rem;
+                                background-position: center;
+                                opacity: .5;
+                                filter: invert(.5);
+                            }
+                        }
+                    }
+                }
+            }
+            
+
+        }
+        .head-sidebar,.footer-sidebar{
+            padding: 1rem 0;
+            color: $grayColor2;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+.navbar-collapse{
+    justify-content: space-between;
+}
+
+.navbar-nav{
+    .nav-item{
+        .nav-link{
+            color: $grayColor2;
+        }
+    }
+}
+
+.list-group{
+    width: 100%;
+
+    .list-group-item{
+        background-color: $grayColor1;
+        color: $grayColor2;
+    }
+}
+
+.loader-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 15em);
+}
