@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![alt text](https://i.ibb.co/93spzNv/asdfasd.png)
 
+## Live Demo
+
+[View Landing](https://iamstudio-landing.netlify.app/)
+
 ## Available Scripts
 
 In the project directory, you can run:
