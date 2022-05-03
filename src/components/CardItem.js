@@ -7,7 +7,7 @@ const CardItem = ({ title, content }) => {
 		<Card>
 			<CardBody>
 				<CardTitle tag="h5">{title.substring(0, 20)}</CardTitle>
-				<CardText>{content.substring(0, 60)}</CardText>
+				<CardText>{content}</CardText>
 				<Button>Read more</Button>
 			</CardBody>
 		</Card>
