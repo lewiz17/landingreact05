@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e3e2e1c7-b836-419e-ada2-c2d1d3dda5f1/deploy-status)](https://app.netlify.com/sites/iamstudio-landing/deploys)
+
 # IAM Studio Landing Page
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
